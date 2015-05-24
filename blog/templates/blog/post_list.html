@@ -6,7 +6,7 @@
         <div>
             <h1><a href="">Django Girls Blog</a></h1>
         </div>
-
+        
 {% for post in posts %}
     <div>
         <p>published: {{ post.published_date }}</p>
@@ -15,7 +15,16 @@
     </div>
 {% endfor %}
 
-       
+        {{ posts }}
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">My first post</a></h2>
+            <p>Hola, mi nombre es Maria y este es mi primer blog.</p>
+        
+
+        {{ posts }}
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">My second post</a></h2>
+            <p>Hola, mi nombre es Maria y este es mi segundo blog.</p>
         
     </body>
 </html>
